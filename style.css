@@ -111,6 +111,11 @@ li {
   opacity: 1;
 }
 
+.menu--open {
+  max-height: 100vh;
+  overflow-y: hidden;
+}
+
 .menu__links {
   display: flex;
   flex-direction: column;
@@ -121,7 +126,7 @@ li {
   padding: 32px;
 }
 
-menu__link {
+.menu__link {
   font-size: 40px;
   color: white;
 }
@@ -198,13 +203,14 @@ buton:active {
   padding: 20px;
 }
 
-.container {
+
+.container  {
   padding: 56px 0;
 }
 
 .row {
   width: 100%;
-  margin-width: 1200px;
+
   margin: 0 auto;
 
 }
@@ -366,11 +372,11 @@ EXPLORE
 FOOTER
 
 */
-
+/* HEAD*/
 footer {
   background-color: #242424;
-
 }
+
 
 .footer__logo{
   display: flex;
